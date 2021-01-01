@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+  background-color: black;
+  color: white;
+  font-family: 'Langar', cursive;
+  text-align: center;
+}
+h1{
+  padding-top: 60px;
+}
+li{
+  list-style: none;
+}
+/*.topnav{
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
+}
+.topnav #mylinks{
+  display: none;
+}
+.topnav a{
+  color: #000000;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.topnav a.icon{
+  background-color: #000000;
+  display: block;
+  position:absolute;
+}
+.topnav a:hover{
+  background-color: #000;
+  color: #fff;
+}
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.hamburger-menu input[type="checkbox"]:checked ~ .menu-items{
+  transform: translate(-0%);
+}
+.hamburger-menu input[type="checkbox"]:checked ~ .hamburger-lines .line{
+  background-color: black;
+}
+.hamburger-menu input{
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  display: block;
+  z-index: 5;
+  opacity: 0;
+}
+.hamburger-lines{
+   width: 40px;
+   height: 32px;
+   position: absolute;
+   top: 19px;
+   left: 7px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hamburger-lines .line{
+  display: block;
+  height: 4px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.hamburger-menu{
+  position: relative;
+}
+.menu-items{
+  padding-top: 100px;
+  transform: translate(-110%);
+  transition: transform 0.5s ease-in-out;
+  padding-left: 10px;
+  background-color: white;
+  color: #232323;
+  margin-top: -15px;
+  padding-bottom: 20px;
+  max-width: 400px;
+  width: 90%;
+}
+.menu-items li{
+  margin-bottom: 2rem;
+}
+
+.hamburger-lines .line1{
+   transform-origin: 0% 0%;
+   transition: transform 0.5s ease-in-out;
+}
+.hamburger-lines .line3{
+  transform-origin: 0% 100%;
+  transition: transform 0.5s ease-in-out;
+}
+.hamburger-menu input[type="checkbox"]:checked ~ .hamburger-lines .line1{
+  transform: rotate(45deg);
+}
+.hamburger-menu input[type="checkbox"]:checked ~ .hamburger-lines .line2{
+  display: none;
+}
+.hamburger-menu input[type="checkbox"]:checked ~ .hamburger-lines .line3{
+  transform: rotate(-45deg);
+}
+.menu-items a{
+  color: #232323;
+  text-decoration: none;
+}*/
+.typewriter h2 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+#navbar{
+  overflow: hidden;
+  background-color: white;
+}
+#navbar a{
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.sticky{
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+@media only screen and (max-width: 600px){
+  *{
+    padding: 0%;
+    margin: 0%;
+  }
+  img{
+    width: 200px;
+    height: 200px;
+  }
+}

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+*{
+ margin: 0%;
+ padding: 0%;
+}
+body{
+  background-color: rgb(190, 10, 160);
+  color: white;
+  font-family: 'Langar','cursive';
+  text-align: center;
+}
+/*h1{
+    position: absolute;
+    top: 40px;
+    text-align: center;
+    padding-left: 30%;
+}
+p{
+  position: absolute;
+  top: 90px;
+  padding-left: 30%;
+}
+.g{
+  position: absolute;
+  top: 230px;
+  padding-left: 40%;
+}
+.l{
+  position: absolute;
+  top: 300px;
+  padding-left: 40%;
+}
+.r{
+  position: absolute;
+  top: 330px;
+  padding-left: 40%;
+}
+.y{
+  position: absolute;
+  top: 360px;
+  padding-left: 40%;
+}
+.b{
+  position: absolute;
+  top: 150px;
+  padding-left: 30%;
+  right: 450px;
+}
+
+li{
+  list-style: none;
+}
+.hamburger-menu input{
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  display: block;
+  z-index: 5;
+  opacity: 0;
+}
+.hamburger-lines{
+   width: 40px;
+   height: 32px;
+   position: absolute;
+   top: 19px;
+   left: 7px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hamburger-lines .line{
+  display: block;
+  height: 4px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.hamburger-menu{
+  position: relative;
+}
+.menu-items{
+  padding-top: 100px;
+  transform: translate(-110%);
+  transition: transform 0.5s ease-in-out;
+  padding-left: 10px;
+  background-color: white;
+  color: #232323;
+  margin-top: -15px;
+  padding-bottom: 20px;
+  max-width: 400px;
+  width: 90%;
+}
+.menu-items li{
+  margin-bottom: 2rem;
+}
+.hamburger-menu input[type="checkbox"]:checked ~ .menu-items{
+  transform: translate(-0%);
+}
+.hamburger-menu input[type="checkbox"]:checked ~ .hamburger-lines .line{
+  background-color: black;
+}
+.hamburger-lines .line1{
+   transform-origin: 0% 0%;
+   transition: transform 0.5s ease-in-out;
+}
+.hamburger-lines .line3{
+  transform-origin: 0% 100%;
+  transition: transform 0.5s ease-in-out;
+}
+.hamburger-menu input[type="checkbox"]:checked ~ .hamburger-lines .line1{
+  transform: rotate(45deg);
+}
+.hamburger-menu input[type="checkbox"]:checked ~ .hamburger-lines .line2{
+  display: none;
+}
+.hamburger-menu input[type="checkbox"]:checked ~ .hamburger-lines .line3{
+  transform: rotate(-45deg);
+}*/
+.b{
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+}
+#navbar{
+  overflow: hidden;
+  background-color: #fff;
+}
+#navbar a{
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.sticky{
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+@media only screen and (max-width: 600px){
+    img{
+      width: 150px;
+      height: 200px;
+    }
+}
+h1{
+  padding-top: 60px;
+}

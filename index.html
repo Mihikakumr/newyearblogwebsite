@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--<div class="topnav">
+  <a href="./index.html">Home</a>
+   <a href="./resolution.html">Resolutions</a>
+   <a href="./new.html">New Year</a>
+   <a href="https://docs.google.com/forms/d/e/1FAIpQLSeHPbUD75hEad0sNPeDU7xilH6TQGxsRKSWOjsXcWdnKD6xew/viewform" target="_blank">Fun Time!</a>
+   <a href="./me.html">Who Made This?</a>
+  </div>
+  <i class="fa fa-bars"></i>-->
+  <div id="navbar">
+    <a href="./index.html">Home</a>
+     <a href="./resolution.html">Resolutions</a>
+     <a href="./new.html">New Year</a>
+     <a href="https://docs.google.com/forms/d/e/1FAIpQLSeHPbUD75hEad0sNPeDU7xilH6TQGxsRKSWOjsXcWdnKD6xew/viewform" target="_blank">Fun Time!</a>
+     <a href="./me.html">Who Made This?</a>
+    </div>
+  <h1>Happy New Year!</h1>
+  <div class="typewriter">
+    <h2>Let's Welcome A New Year!<br>2021!</h1>
+  </div>
+  <img class="a" src="https://media2.giphy.com/media/26tOZ42Mg6pbTUPHW/giphy.gif" alt="" width="50%" height="50%" >
+  <script>
+    window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+  </script>
+</body>
+</html>

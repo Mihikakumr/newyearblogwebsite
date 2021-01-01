@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who made this app?</title>
+    <link rel="stylesheet" href="me.css">
+    </head>
+<body>
+    
+        <!--<div class="hamburger-menu">
+          <input type="checkbox">
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>
+          <ul class="menu-items">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./resolution.html">Resolutions</a></li>
+            <li><a href="./new.html">New Year</a></li>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeHPbUD75hEad0sNPeDU7xilH6TQGxsRKSWOjsXcWdnKD6xew/viewform" target="_blank">Fun Time!</a></li>
+            <li><a href="./me.html">Who Made This?</a></li>
+          </ul>
+          </div>
+        </nav>-->
+        <div id="navbar">
+          <a href="./index.html">Home</a>
+           <a href="./resolution.html">Resolutions</a>
+           <a href="./new.html">New Year</a>
+           <a href="https://docs.google.com/forms/d/e/1FAIpQLSeHPbUD75hEad0sNPeDU7xilH6TQGxsRKSWOjsXcWdnKD6xew/viewform" target="_blank">Fun Time!</a>
+           <a href="./me.html">Who Made This?</a>
+          </div>
+        <h1>Who Made This App?</h1>
+        <h2>Mihika Kumar Made This App!</h2>
+        <img src="https://mail.google.com/mail/u/0?ui=2&ik=49ec30774e&attid=0.1&permmsgid=msg-a:r-4340139398244453541&th=176be89696204d68&view=att&disp=safe&realattid=176be8942d9a69da07a1" alt="">
+        <p>My name is Mihika. <br> I am 9 years old and I learn coding from ProGrad Jr.<br>I am stdying in Vibgyor High School and I am in Grade 4.</p>
+        <script>
+          window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+        </script>
+</body>
+</html>
